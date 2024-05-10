@@ -1,1 +1,293 @@
 
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>Wooden Doors</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="https://www.w3schools.com/lib/w3-theme-green.css" rel="stylesheet" />
+	<style type="text/css">body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/6238610/pexels-photo-6238610.jpeg?");
+  min-height: 100%;
+  width:100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+.button-58 {
+ padding: 10px 40px;
+ font-size: 18px;
+ background-color: #008542;
+ color: #fff;
+ text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ border: 0;
+margin: 5px;
+ z-index: 1;
+ user-select: none;
+ cursor: pointer;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ white-space: unset;
+ padding: .8rem 1.5rem;
+ text-decoration: none;
+ font-weight: 900;
+ transition: all 0.7s cubic-bezier(0,.8,.26,.99);
+}
+
+.button-58:before {
+ position: absolute;
+ pointer-events: none;
+ top: 0;
+ left: 0;
+ display: block;
+ width: 100%;
+ height: 100%;
+ content: '';
+ transition: .7s cubic-bezier(0,.8,.26,.99);
+ z-index: -1;
+ background-color: #008542!important;
+ box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+}
+
+.button-58:after {
+ position: absolute;
+ pointer-events: none;
+ top: 0;
+ left: 0;
+ display: block;
+ width: 100%;
+ height: 100%;
+ content: '';
+ box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+ transition: .7s cubic-bezier(0,.8,.26,.99);
+}
+
+.button-58:hover:before {
+ box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+}
+
+.button-58:hover:after {
+ box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+}
+
+.button-58:active {
+ transform: translateY(4px);
+}
+
+.button-58:active:after {
+ box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+}
+
+.mySlides {display: none}
+	</style>
+</head>
+<body>
+<div class="w3-top">
+<div class="w3-bar w3-theme-l1 w3-card" id="myNavbar"><a class="w3-bar-item w3-button " href="#home"><img alt="" src="https://ocasaforum.asia/CKSP/images/cksplogo.png" style="height: 32px;" /></a> <!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small"><strong><a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#about">ABOUT</a> <a class="w3-bar-item w3-button" href="#services"> SERVICE</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#products"> PRODUCTS</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#gallery"> GALLERY</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#contact"> CONTACT</a></strong></div>
+<!-- Hide right-floated links on small screens and replace them with a menu icon --> <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" href="javascript:void(0)" onclick="w3_open()"> </a></div>
+</div>
+<!-- Sidebar on small screens when clicking the menu icon -->
+
+<nav class="w3-sidebar w3-bar-block w3-green w3-card w3-animate-left w3-hide-medium w3-hide-large" id="mySidebar" style="display:none"><a class="w3-bar-item w3-button w3-large w3-padding-16" href="javascript:void(0)" onclick="w3_close()">Close X</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#about" onclick="w3_close()">ABOUT</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#services" onclick="w3_close()">SERVICE</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#products" onclick="w3_close()">PRODUCTS</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#gallery" onclick="w3_close()">GALLERY</a> <a class="w3-bar-item w3-button" href="https://ocasaforum.asia/CKSP/cksp2.html#contact" onclick="w3_close()">CONTACT</a></nav>
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-main w3-content w3-white"><!-- Push down content on small screens -->
+<div style="margin-top:80px"></div>
+<!-- Slideshow Header -->
+
+<div class="w3-container" id="apartment">
+<h3 class="w3-bar-block w3-padding w3-green"><strong>Wooden Doors</strong></h3>
+
+<div class="w3-display-container mySlides"><img src="https://lyrix.com.sg/wp-content/uploads/2021/02/marble-cladded-timber-fire-rated-door.jpg" style="width:100%;margin-bottom:-6px" />
+<div class="w3-display-bottomleft w3-container w3-green">
+<p>Fire Rated</p>
+</div>
+</div>
+
+<div class="w3-display-container mySlides"><img src="https://lyrix.com.sg/wp-content/uploads/2021/02/timber-fire-rated-door-wheelock.jpg" style="width:100%;margin-bottom:-6px" />
+<div class="w3-display-bottomleft w3-container w3-green">
+<p>Non-Fire Rated</p>
+</div>
+</div>
+</div>
+
+<div class="w3-row-padding w3-section">
+<div class="w3-col s3"><img class="demo w3-opacity w3-hover-opacity-off" onclick="currentDiv(1)" src="https://lyrix.com.sg/wp-content/uploads/2021/02/marble-cladded-timber-fire-rated-door.jpg" style="width:100%;cursor:pointer" title="Living room" /></div>
+
+<div class="w3-col s3"><img class="demo w3-opacity w3-hover-opacity-off" onclick="currentDiv(2)" src="https://lyrix.com.sg/wp-content/uploads/2021/02/timber-fire-rated-door-wheelock.jpg" style="width:100%;cursor:pointer" title="Dining room" /></div>
+</div>
+
+<div class="w3-container">
+<h3><span style="color:#27ae60;"><strong>Wooden Fire Rated &
+Non-Fire Rated Doors.</strong></span></h3>
+
+<p>Our wooden door solutions not only provide resistance against fires, but are also available in a variety of finishes, encompassing the definition of form follows function. With the wide variety of customizable options available, our wooden doors are ready to be tailored to meet your specific needs, while adhering to SS 332: 2018 (Singapore Standard Specification For Fire Doors).</p>
+<ul style="list-style-type:circle;">
+    <li>In compliance with SS 332: 2018</li>
+    <li>Variety of finishes available</li>
+    <li>Fire rating ranging from ½ hour – 2 hours</li>
+    <li>Customizable to a size that fits your requirements</li>
+    <li>Vision panel option available</li>
+</ul>
+
+<hr />
+<div class="w3-container">
+    <table class="w3-table w3-striped w3-bordered w3-hoverable">
+        <thead>
+            <tr class="w3-green">
+                <th colspan="2">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Material</strong></td>
+                <td>Timber</td>
+            </tr>
+            <tr>
+                <td><strong>Configuration</strong></td>
+                <td>Single Leaf, Double Leaf, Unequal Double Leaf</td>
+            </tr>
+            <tr>
+                <td><strong>Fire Rating (if fire-rated option is selected)</strong></td>
+                <td>½ Hour - 2 Hours</td>
+            </tr>
+            <tr>
+                <td><strong>Core (with or without)</strong></td>
+                <td>Fire Rated Board</td>
+            </tr>
+            <tr>
+                <td><strong>Fire Seals</strong></td>
+                <td>Intumescent Seal Around Door Leaf</td>
+            </tr>
+            <tr>
+                <td><strong>Door Thickness</strong></td>
+                <td>45-60mm (Fire Rated), 38-45mm (Non-Fire Rated)</td>
+            </tr>
+            <tr>
+                <td><strong>Size</strong></td>
+                <td>2400mm x 2400mm (maximum standard size), contact us for oversized solutions</td>
+            </tr>
+            <tr>
+                <td><strong>Ironmongeries</strong></td>
+                <td>Selection in compliance with SS 332: 2018</td>
+            </tr>
+            <tr>
+                <td><strong>Vision Panel</strong></td>
+                <td>Clear or Wire meshed</td>
+            </tr>
+            <tr>
+                <td><strong>Jamb</strong></td>
+                <td>Single Rebated, Double Rebated</td>
+            </tr>
+            <tr>
+                <td><strong>Finish</strong></td>
+                <td>Variety of Claddings available, Paint, Varnish, Laminates</td>
+            </tr>
+            <tr>
+                <td><strong>Certification</strong></td>
+                <td>In compliance with SS 332: 2018 (Singapore Standard Specification For Fire Doors)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+<!-- Product Section -->
+
+<div class="w3-container w3-content w3-theme-l5 w3-center" id="products" style="padding:64px 16px">
+<h3 class="w3-center"><span style="color:#27ae60;"><strong>Our Products</strong></span></h3>
+<p class="w3-center w3-large">Offering both Fire Rated and Non Fire Rated Varieties</p>
+ <a class="button-58" href="https://ocasaforum.asia/CKSP/steel.html" role="button">&#128682; STEEL DOORS</a> <a class="button-58" href="https://ocasaforum.asia/CKSP/sliding.html" role="button">&#128682; SLIDING DOORS</a> <a class="button-58" href="https://ocasaforum.asia/CKSP/glass.html" role="button">&#128682; GLASS DOORS</a> <a class="button-58" href="https://ocasaforum.asia/CKSP/wood.html" role="button">&#128682; WOODEN DOORS</a></div>
+<!-- Contact Section -->
+
+<div class="w3-container w3-center w3-content w3-text-theme" style="padding:64px 16px" id="contact">
+ <h3><span style="color:#27ae60;"><strong>Contact CKSP</strong></span></h3>
+  
+  <div class="w3-center" style="margin-top: 48px">
+       <p><i class="fa fa-whatsapp fa-fw w3-xxlarge w3-margin-right"> </i> <strong>Whatsapp:87615954</strong></p>
+  
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i><strong>Phone: 87615954</strong></p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i><strong> veeramanikokila@gmail.com</strong></p>
+  
+
+  </div>
+</div>
+</div>
+<!-- Footer -->
+
+<footer class="w3-center w3-theme-l3 w3-padding-64"><a class="w3-button w3-light-grey" href="https://ocasaforum.asia/CKSP/cksp2.html">Back</a></footer>
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script></div>
+</body>
+</html>
